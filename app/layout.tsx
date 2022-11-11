@@ -1,4 +1,9 @@
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 import './globals.css'
+import Script from 'next/script'
+
+
 
 export default function RootLayout({
   children,
@@ -7,12 +12,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
       <head />
-      <body>{children}</body>
+      <body className='overflow-x-hidden'>
+        <Navbar/>
+       
+            {children}
+       <Footer/>
+      <Script strategy='lazyOnload' defer charSet='utf-8' src="/vanilla-tilt.js" />
+      </body>
+
     </html>
   )
 }
