@@ -19,8 +19,8 @@ export default function Experiences() {
         <h1 className="mx-auto font-semibold text-lg text-white">1</h1>
       </div>
       <div className="order-1 z-10 border-lime-400 hover:bg-green-500 bg-lime-400 w-5/12 px-6 py-4">
-        <h3 className="mb-1 text-base font-bold md:text-xl">Freelance Developer</h3>
-        <p className="text-sm leading-snug tracking-wide text-opacity-100">@Fiverr.com    (Aug 2022-Present)</p>
+        <h3 className="mb-1 text-base font-bold md:text-xl">Developer</h3>
+        <p className="text-sm leading-snug tracking-wide text-opacity-100">@XYZ.com   (Aug 2022-Present)</p>
         <p className="text-sm leading-snug tracking-wide text-opacity-100">Tech-Stack:   HTML, Tailwind CSS, Wordpress, Bootstrap, React</p>
       </div>
     </div>
@@ -33,8 +33,8 @@ export default function Experiences() {
       </div>
       <div className="order-1  z-10 border border-lime-400 hover:bg-green-500 bg-lime-400 w-5/12 px-6 py-4">
         <h3 className="mb-1 text-base font-bold md:text-xl">Cofounder</h3>
-        <p className="text-sm  leading-snug tracking-wide  text-opacity-100">@Codexar  (Oct 2022-Present)</p>
-        <p className="text-sm  leading-snug tracking-wide  text-opacity-100">Tech-Stack:   React.JS, Next.JS, Express.JS, MongoDB, PostgreSQL</p>
+        <p className="text-sm  leading-snug tracking-wide  text-opacity-100">@SomeStartup  (Oct 2022-Present)</p>
+        <p className="text-sm  leading-snug tracking-wide  text-opacity-100">Tech-Stack:   React.JS, Next.JS, Express.JS, PostgreSQL</p>
       </div>
     </div>
    </div>
